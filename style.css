@@ -17,4 +17,31 @@ body {
 
 #main-content {
     grid-area: main-content;
+    display: grid;
+    grid-template: 1fr 1fr / 6fr 2fr;
+    grid-template-areas: 
+    "projects announcements"
+    "projects trending";
+}
+
+#projects {
+    grid-area: projects;
+    display: grid;
+    grid-template: 0.1fr 1fr 1fr / 1fr 1fr 1fr;
+    grid-template-areas: 
+    "project-title project-title project-title";
+    gap: 20px;
+    padding: 20px;
+}
+
+#announcements {
+    grid-area: announcements;
+}
+
+#trending {
+    grid-area: trending;
+}
+
+#project-title {
+    grid-area: project-title;
 }
