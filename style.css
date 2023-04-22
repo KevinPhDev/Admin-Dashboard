@@ -27,21 +27,38 @@ body {
 #projects {
     grid-area: projects;
     display: grid;
-    grid-template: 0.1fr 1fr 1fr / 1fr 1fr 1fr;
-    grid-template-areas: 
-    "project-title project-title project-title";
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
     gap: 20px;
     padding: 20px;
+    position: relative;
 }
 
 #announcements {
     grid-area: announcements;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    position: relative;
+    padding: 20px;
+    gap: 20px;
+    position: relative;
 }
 
 #trending {
     grid-area: trending;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    position: relative;
 }
 
-#project-title {
-    grid-area: project-title;
+.category {
+    position: absolute;
+}
+
+
+
+
+div {
+    border: 1px solid black;
 }
