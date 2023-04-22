@@ -48,6 +48,7 @@ body {
     "projects trending";
     padding: 20px;
     gap: 40px;
+    background-color: rgb(241, 246, 248);
 }
 
 .main-sections {
@@ -62,13 +63,17 @@ body {
     position: relative;
 }
 
+.project {
+    background-color: rgb(255, 255, 255);
+}
+
 #announcements {
     grid-area: announcements;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     position: relative;
     position: relative;
-    background-color: greenyellow;
+    background-color: white;
 }
 
 #trending {
@@ -78,13 +83,14 @@ body {
     gap: 20px;
     padding: 20px;
     position: relative;
-    background-color: aqua;
+    background-color: white;
 }
 
 .category {
     position: absolute;
     left: 0px;
     top: -20px;
+    font-weight: 550;
 }
 
 
