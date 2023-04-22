@@ -41,14 +41,19 @@ body {
     grid-template-areas: 
     "projects announcements"
     "projects trending";
+    padding: 20px;
+    gap: 40px;
+}
+
+.main-sections {
+    gap: 20px;
+    padding: 10px;
 }
 
 #projects {
     grid-area: projects;
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr;
-    gap: 20px;
-    padding: 20px;
     position: relative;
 }
 
@@ -57,9 +62,8 @@ body {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     position: relative;
-    padding: 20px;
-    gap: 20px;
     position: relative;
+    background-color: greenyellow;
 }
 
 #trending {
@@ -69,10 +73,13 @@ body {
     gap: 20px;
     padding: 20px;
     position: relative;
+    background-color: aqua;
 }
 
 .category {
     position: absolute;
+    left: 0px;
+    top: -20px;
 }
 
 
