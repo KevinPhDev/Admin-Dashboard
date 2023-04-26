@@ -34,6 +34,7 @@ body {
     grid-template-areas: 
     "user-pic greeting greeting"
     "user-pic name handle";
+    gap: 10px;
 }
 
 .buttons {
@@ -62,6 +63,44 @@ body {
 
 .handle {
     grid-area: handle;
+}
+
+.search > *,
+.corner > *,
+.buttons > * {
+    height: 30px;
+    align-self: center;
+}
+
+.search {
+    gap: 15px;
+}
+
+.searchbutton {
+    margin-left: 40px;
+}
+
+.searchbar {
+    width: 70%;
+    border-radius: 30px;
+}
+
+.corner {
+    gap: 20px;
+    justify-content: center;
+}
+
+.notification {
+    margin-left: 20%;
+}
+
+.buttons {
+    gap: 20px;
+    justify-content: center;
+}
+
+.buttons > * {
+    border-radius: 20px;
 }
 
 #icon,
