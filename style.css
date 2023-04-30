@@ -101,6 +101,11 @@ body {
 
 .buttons > * {
     border-radius: 20px;
+    background-color: rgb(38, 129, 219);
+    color: antiquewhite;
+    width: 20%;
+    height: 50%;
+    font-weight: 600;
 }
 
 #icon,
