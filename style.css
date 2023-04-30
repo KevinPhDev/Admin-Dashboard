@@ -113,6 +113,10 @@ body {
     display: grid;
 }
 
+.link {
+    font-weight: 550;
+}
+
 .link:hover {
     background-color: rgb(5, 100, 234);
 }
@@ -130,7 +134,7 @@ body {
     grid-template-areas: 
     "projects announcements"
     "projects trending";
-    padding: 20px;
+    padding: 50px;
     gap: 40px;
     background-color: rgb(241, 246, 248);
 }
